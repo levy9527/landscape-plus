@@ -2,10 +2,10 @@
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
+#rss: /atom.xml
 
 # Content
-excerpt_link: Read More
+#excerpt_link: Read More
 fancybox: false
 mathjax: false
 
@@ -21,7 +21,7 @@ widgets:
 
 # Links
 links:
-  主题作者: http://xiguabaobao.com
+  主题: https://github.com/levy9527/landscape-plus
   热前端: http://reqianduan.com
 
 # Miscellaneous
@@ -32,7 +32,7 @@ google_plus:
 fb_admins: 
 fb_app_id:
 
-# Duoshuo
+# Duoshuo, 推荐放在站点配置文件中
 duoshuo_shortname: 
 
 # Baidu share
