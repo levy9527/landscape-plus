@@ -32,12 +32,8 @@
 
 ## <a name='install'>安装</a>
 
-你可以选择要下载的**release**版本：https://github.com/xiangming/landscape-plus/releases
-
-或者直接使用最新版：（可能会存在bug，谨慎使用）
-
 ```bash
-git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
+git clone https://github.com/levy9527/landscape-plus.git
 ```
 
 ## <a name='enable'>启用</a>
@@ -52,49 +48,7 @@ theme: landscape-plus
 
 ## <a name='config'>配置</a>
 
-主题的默认配置文件`landscape-plus\_config.yml`：
-
-```yml
-# Header
-menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
-
-# Content
-excerpt_link: Read More
-fancybox: false
-mathjax: false
-
-# Sidebar
-sidebar: right
-widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
-- links
-
-# Links
-links:
-  主题作者: http://xiguabaobao.com
-  热前端: http://reqianduan.com
-
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
-
-# Duoshuo
-duoshuo_shortname:
-
-# Baidu share
-baidushare: true
-```
+主题的默认配置文件说明`landscape-plus\_config.yml`：
 
 + `mathjax` - 是否开启latex数学公式
 + `links` - 友情链接
@@ -142,6 +96,11 @@ git pull
 > 主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
 
 ## <a name='logs'>更新日志</a>
+
+### levy fork 的版本
+> 修改`themes/landscape-plus/source/css/_partial/header.styl` 
+ 1.恢复原主题的大图
+ 2.取消logo的鲜红色背景
 
 ### v1.0.5
 + 主题配置项优化, refs #17
