@@ -123,9 +123,9 @@ $nav-link
 #search-form-wrap
   position: absolute
   top: 15px
-  width: 150px
+  width: 200px
   height: 30px
-  right: -150px
+  right: -200px
   opacity: 0
   transition: 0.2s ease-out
   &.on
@@ -140,16 +140,18 @@ $nav-link
   top: 0
   left: 0
   right: 0
+  overflow: hidden
   background: #fff
   padding: 5px 15px
   border-radius: 15px
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 
 .search-form-input
-  border: none
-  background: none
+  border: none !important
+  width: 90% !important
+  padding: 7px 11px 7px 28px;
   color: color-default
-  width: 100%
+  background: none
   font: 13px font-sans
   outline: none
   &::-webkit-search-results-decoration

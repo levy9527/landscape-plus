@@ -14,7 +14,7 @@ sidebar: right
 widgets:
 - category
 - tag
-- tagcloud
+#- tagcloud
 - archive
 - recent_posts
 - links
@@ -37,3 +37,6 @@ duoshuo_shortname:
 
 # Baidu share
 baidushare: true
+
+#swiftype 搜索
+swiftype_key: 
