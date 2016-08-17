@@ -21,7 +21,6 @@ widgets:
 
 # Links
 links:
-  主题: https://github.com/levy9527/landscape-plus
   热前端: http://reqianduan.com
 
 # Miscellaneous
@@ -38,5 +37,5 @@ duoshuo_shortname:
 # Baidu share
 baidushare: true
 
-#swiftype 搜索
+#swiftype 搜索, 推荐放在站点配置文件中
 swiftype_key: 
