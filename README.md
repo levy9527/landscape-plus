@@ -8,11 +8,12 @@
 
 + **主题配置项优化**，你可以将主题配置项放在站点的`_config.yml`中，避免主题更新造成的冲突。
 + **移除Google库**，改用cloudflare的CDN，加快页面显示速度。
-+ **新增多语言支持**，支持英文、中文简体和中文繁体。
-+ **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
-+ **新增百度分享模块**，已默认开启。
 + **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)。
++ **新增百度分享模块**，已默认开启。
++ **新增swiftype搜索模块**，需要配置自己的swiftype_key,[参考教程](http://theme-next.iissnan.com/third-party-services.html#swfitype)。
++ **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
 + **新增mathjax模块**，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
++ **新增多语言支持**，支持英文、中文简体和中文繁体。
 + **新增IE8支持**。
 + **外观美化**，美化了部分外观样式。
 + **使用Monokai代码高亮配色**，最流行、最优雅的代码高亮配色方案。
@@ -98,9 +99,11 @@ git pull
 ## <a name='logs'>更新日志</a>
 
 ### levy fork 的版本
-> 修改`themes/landscape-plus/source/css/_partial/header.styl` 
- 1.恢复原主题的大图
- 2.取消logo的鲜红色背景
+修改`themes/landscape-plus/source/css/_partial/header.styl` 
++ 1.恢复原主题的大图
++ 2.取消logo的鲜红色背景
++ 3.使用站点的favicon.ico,即项目根目录source/favicon.ico文件
++ 4.增加swiftype搜索
 
 ### v1.0.5
 + 主题配置项优化, refs #17
