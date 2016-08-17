@@ -99,11 +99,10 @@ git pull
 ## <a name='logs'>更新日志</a>
 
 ### levy fork 的版本
-修改`themes/landscape-plus/source/css/_partial/header.styl` 
-+ 1.恢复原主题的大图
-+ 2.取消logo的鲜红色背景
-+ 3.使用站点的favicon.ico,即项目根目录source/favicon.ico文件
-+ 4.增加swiftype搜索
++ 1.恢复原主题的大图(`themes/landscape-plus/source/css/_partial/header.styl`)
++ 2.取消logo的鲜红色背景(同上)
++ 3.使用站点的favicon.ico,即项目根目录source/favicon.ico文件(`themes/landscape-plus/layout/_partial/head.ejs`)
++ 4.增加swiftype搜索(`themes/landscape-plus/layout/_partial/after-footer.ejs`)
 
 ### v1.0.5
 + 主题配置项优化, refs #17
