@@ -1,7 +1,8 @@
 {
   "name": "landscape-plus",
-  "version": "0.0.1",
+  "version": "1.0.6",
   "private": true,
+  "description": 'fork by levy',
   "devDependencies": {
     "grunt": "~0.4.2",
     "load-grunt-tasks": "~0.2.0",
