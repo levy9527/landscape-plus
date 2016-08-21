@@ -2,6 +2,24 @@
 <%- partial('totop') %>
 <!-- totop end -->
 
+<!-- 百度统计start -->
+<% if (config.baidu_analytics || theme.baidu_analytics){ %>
+    <script type="text/javascript">
+      var key = '<%- config.baidu_analytics %>';       
+      if(!key) 
+          key = '<%- theme.baidu_analytics %>';
+          
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?" + key;
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+<% } %>
+<!-- 百度统计end -->
+
 <% if (config.duoshuo_shortname || theme.duoshuo_shortname){ %>
 <!-- 多说公共js代码 start -->
 <script type="text/javascript">
@@ -9,7 +27,7 @@ var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_sh
   (function() {
     var ds = document.createElement('script');
     ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.src = '//static.duoshuo.com/embed.js';
     ds.charset = 'UTF-8';
     (document.getElementsByTagName('head')[0]
      || document.getElementsByTagName('body')[0]).appendChild(ds);
@@ -55,7 +73,7 @@ var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_sh
     "common":{onBeforeClick: SetShareData},
     "share":{"bdCustomStyle":"<%- url_for("/css/bdshare.css") %>"}
   };
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
 </script>
 <% } %>
 <!-- 百度分享 end -->

@@ -39,3 +39,6 @@ baidushare: true
 
 #swiftype 搜索, 推荐放在站点配置文件中
 swiftype_key: 
+
+#百度统计, 推荐放在站点配置文件中
+baidu_analytics:  
