@@ -98,12 +98,19 @@ git pull
 
 ## <a name='logs'>更新日志</a>
 
-### levy fork 的版本
+## levy fork 的版本
+### v1.1.1
++ 1.修改#logo的文字，通过主题配置文件banner字段配置
++ 2.添加百度统计
+
+
+### v1.1.0
 + 1.恢复原主题的大图(`themes/landscape-plus/source/css/_partial/header.styl`)
 + 2.取消logo的鲜红色背景(同上)
 + 3.使用站点的favicon.ico,即项目根目录source/favicon.ico文件(`themes/landscape-plus/layout/_partial/head.ejs`)
 + 4.增加swiftype搜索(`themes/landscape-plus/layout/_partial/after-footer.ejs`)
 
+## 原版本
 ### v1.0.5
 + 主题配置项优化, refs #17
 + 百度分享样式调整，refs #45, refs #61

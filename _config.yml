@@ -4,6 +4,8 @@ menu:
   Archives: /archives
 #rss: /atom.xml
 
+banner: CODE THE WEB
+
 # Content
 #excerpt_link: Read More
 fancybox: false
