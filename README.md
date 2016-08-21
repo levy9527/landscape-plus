@@ -11,6 +11,7 @@
 + **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)。
 + **新增百度分享模块**，已默认开启。
 + **新增swiftype搜索模块**，需要配置自己的swiftype_key,[参考教程](http://theme-next.iissnan.com/third-party-services.html#swfitype)。
++ **新增百度统计模块**，需要配置自己的baidu_analytics,[参考教程](http://theme-next.iissnan.com/third-party-services.html#analytics-baidu)。
 + **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
 + **新增mathjax模块**，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 + **新增多语言支持**，支持英文、中文简体和中文繁体。
@@ -86,9 +87,6 @@ git pull
 
 **问**：怎么切换语言版本？
 > 在站点的配置文件`_config.yml`，修改`language:`配置项，zh-CN为中文简体，zh-TW为中文繁体，default为英文。
-
-**问**：我喜欢原主题顶部的大图，如何恢复？
-> `themes/landscape-plus/source/css/_partial/header.styl`，取消第33行的注释。
 
 **问**：Landscape plus主题的字体配色太闪眼睛了，我怎么换回原主题的样式？
 > 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/13)进行配置。
