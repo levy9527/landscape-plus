@@ -8,7 +8,6 @@
 
 + **新增swiftype搜索模块**，需要配置自己的swiftype_key,[参考教程](http://theme-next.iissnan.com/third-party-services.html#swfitype)。
 + **新增百度统计模块**，需要配置自己的baidu_analytics,[参考教程](http://theme-next.iissnan.com/third-party-services.html#analytics-baidu)。
-
 + **主题配置项优化**，你可以将主题配置项放在站点的`_config.yml`中，避免主题更新造成的冲突。
 + **移除Google库**，改用cloudflare的CDN，加快页面显示速度。
 + **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)。
