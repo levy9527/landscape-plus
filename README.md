@@ -91,6 +91,9 @@ git pull
 ## levy fork 的版本
 > [版本号的定义](http://taobaofed.org/blog/2016/08/04/instructions-of-semver/)
 
+### v1.3.1
+- fix https协议下获取不了fontawesome.font的bug
+
 ### v1.3.0
 - 修改布局上的感觉"反人类的设计", 包括"下一篇"与"上一篇"的位置, 归档文章的排列顺序
 - 修改链接的样式, 参考github
