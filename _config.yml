@@ -1,14 +1,14 @@
 # Header
 menu:
-  首页: /
-  归档: /archives
-  关于: /about.html
+  home: /
+  archives: /archives
+  about: /about.html
 #rss: /atom.xml
 
 banner: CODE THE WEB
 
 # Content
-#excerpt_link: Read More
+excerpt_link: Read More
 fancybox: false
 mathjax: false
 
