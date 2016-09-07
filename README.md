@@ -1,15 +1,13 @@
 # Landscape plus
 
-[![Join the chat at https://gitter.im/xiangming/landscape-plus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiangming/landscape-plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[**演示**](http://jasonxiang.com/landscape-plus/)
+针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[演示](levy9527.github.io)
 
 ## 主题特色
 
++ **移除外国类库**，确保所有资源不用翻墙每次能加载成功
 + **新增swiftype搜索模块**，需要配置自己的swiftype_key,[参考教程](http://theme-next.iissnan.com/third-party-services.html#swfitype)。
 + **新增百度统计模块**，需要配置自己的baidu_analytics,[参考教程](http://theme-next.iissnan.com/third-party-services.html#analytics-baidu)。
 + **主题配置项优化**，你可以将主题配置项放在站点的`_config.yml`中，避免主题更新造成的冲突。
-+ **移除Google库**，改用cloudflare的CDN，加快页面显示速度。
 + **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)。
 + **新增百度分享模块**，已默认开启。
 + **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
@@ -82,31 +80,31 @@ git pull
 **问**：如何使用RSS分享功能？
 > 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/31)进行配置。
 
-**问**：怎么添加友情链接？
-> 在站点的`_config.yml`中，增加`links:`配置项。
-
 **问**：怎么切换语言版本？
 > 在站点的配置文件`_config.yml`，修改`language:`配置项，zh-CN为中文简体，zh-TW为中文繁体，default为英文。
 
-**问**：Landscape plus主题的字体配色太闪眼睛了，我怎么换回原主题的样式？
-> 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/13)进行配置。
-
 **问**：怎么提建议？
-> 主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
+> 主题还在扩展中, 本人在写博客的过程中, 发现主题可优化的地方还有很多, 因此本项目会持续更新, 欢迎大家Pull Request, 我都会响应的(至少2016年是这样).
 
 ## <a name='logs'>更新日志</a>
 
 ## levy fork 的版本
-### v1.1.1
-+ 1.修改#logo的文字，通过主题配置文件banner字段配置
-+ 2.添加百度统计
+### v1.1.2
+- 修改布局上的感觉"反人类的设计", 包括"下一篇"与"上一篇"的位置, 归档文章的排列顺序
+- 修改链接的样式, 参考github
+- 修改字体样式, 参考github
+- 使用bootcdn获取jquery, 这才是真正符合国情的cdn
 
+
+### v1.1.1
++ 修改#logo的文字，通过主题配置文件banner字段配置
++ 添加百度统计
 
 ### v1.1.0
-+ 1.恢复原主题的大图(`themes/landscape-plus/source/css/_partial/header.styl`)
-+ 2.取消logo的鲜红色背景(同上)
-+ 3.使用站点的favicon.ico,即项目根目录source/favicon.ico文件(`themes/landscape-plus/layout/_partial/head.ejs`)
-+ 4.增加swiftype搜索(`themes/landscape-plus/layout/_partial/after-footer.ejs`)
++ 恢复原主题的大图(`themes/landscape-plus/source/css/_partial/header.styl`)
++ 取消logo的鲜红色背景(同上)
++ 使用站点的favicon.ico,即项目根目录source/favicon.ico文件(`themes/landscape-plus/layout/_partial/head.ejs`)
++ 增加swiftype搜索(`themes/landscape-plus/layout/_partial/after-footer.ejs`)
 
 ## 原版本
 ### v1.0.5
@@ -147,8 +145,6 @@ git pull
 + [HADB](https://github.com/HADB)
 + [Svtter](https://github.com/Svtter)
 + [bearpaw](https://github.com/bearpaw)
-
-主题还在扩展中，欢迎各种**Pull Request**。
 
 ## <a name='sites'>网站列表</a>
 
