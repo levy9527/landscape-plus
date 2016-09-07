@@ -1,6 +1,12 @@
 # Landscape plus
 
-针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[演示](https://levy9527.github.io)
+针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x. 欢迎大家参与进来. [演示](https://levy9527.github.io)
+
+## TODO 
+目前关注到的可优化的点:
+- 感觉阅读全文的样式有点不和谐, 但又不知怎么改
+- 分页的样式真的很难看, 一定要改
+- 换一个搜索方式, swiftype免费试用结束后, 就不能搜索到新文章了
 
 ## 主题特色
 
