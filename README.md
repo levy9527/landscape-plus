@@ -45,6 +45,7 @@ git clone https://github.com/levy9527/landscape-plus.git
 ## <a name='enable'>启用</a>
 
 修改hexo的配置文件`_config.yml`，把`theme`的值设置为`landscape-plus`
+
 ```yml
 # Extensions
 ## Plugins: http://hexo.io/plugins/
@@ -55,13 +56,27 @@ theme: landscape-plus
 ## <a name='config'>配置</a>
 
 主题的默认配置文件说明`landscape-plus\_config.yml`：
-
 + `mathjax` - 是否开启latex数学公式
 + `links` - 友情链接
 + `duoshuo_shortname` - 多说评论id
 + `baidushare` - 是否开启百度分享
 
 **建议！** `mathjax`、`links`、`duoshuo_shortname`、`baidushare`配置项也支持放在站点的`_config.yml`中，并且我们建议你这样做。
+
+> 在归档页面显示所有文章, 需要修改主配置文件:
+
+```yml
+archive_generator:
+  per_page: 0
+	yearly: false
+	monthly: false
+	daily: false
+```
+如果不生效, 可能Hexo版本没有自带`hexo-generator-archive`插件, 则自己手动安装一下即可:
+
+```sh
+npm i hexo-generator-archive
+```
 
 ## <a name='update'>更新</a>
 
