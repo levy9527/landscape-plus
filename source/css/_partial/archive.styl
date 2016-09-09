@@ -71,8 +71,10 @@
      border: 1px solid transparent
      color: color-link
      background-color: #fff
-     &:hover
-       border-color: #ddd
+     &:hover, &:active
+       border-color: color-link
+       background-color: color-link
+       color: #fff
   .page-number
     display: none
     @media mq-mobile
