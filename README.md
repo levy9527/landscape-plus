@@ -112,6 +112,12 @@ git pull
 ## levy fork 的版本
 > [版本号的定义](http://taobaofed.org/blog/2016/08/04/instructions-of-semver/)
 
+### v1.3.4
+- 取消最近文章, 更新友情链接
+- fontawesome字体从本地获取, 不再担心有时加载不出来了
+- 去掉一些不必要的链接
+- fix moble-nav 未多语言化的bug
+
 ### v1.3.3
 - 字体默认颜色#333
 - 上一页/下一页去掉数字, 只显示翻页按钮
