@@ -19,12 +19,15 @@ widgets:
 - tag
 #- tagcloud
 - archive
-- recent_posts
+#- recent_posts
 - links
 
 # Links
 links:
-  热前端: http://reqianduan.com
+  阮一峰: http://www.ruanyifeng.com/blog/
+  左耳朵耗子: http://coolshell.cn/
+  阿里郎小胡子哥: http://www.barretlee.com/entry/
+  大漠弟子pinggod: http://pinggod.com/
 
 # Miscellaneous
 google_analytics:
