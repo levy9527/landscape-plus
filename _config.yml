@@ -50,3 +50,6 @@ swiftype_key:
 
 #百度统计, 推荐放在站点配置文件中
 baidu_analytics:  
+
+#显示fork me on github, 这里填写你的github账号
+github_account: levy9527
