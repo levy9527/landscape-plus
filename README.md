@@ -112,6 +112,12 @@ git pull
 ## levy fork 的版本
 > [版本号的定义](http://taobaofed.org/blog/2016/08/04/instructions-of-semver/)
 
+### v1.4.0
+- 取消右上角的搜索icon
+- 可配置fork-me-on-github, 在右上角显示
+- 参考别人的博客, 修改文章hover样式, 文章字体
+- 更新友情链接
+
 ### v1.3.4
 - 取消最近文章, 更新友情链接
 - fontawesome字体从本地获取, 不再担心有时加载不出来了
